@@ -1,0 +1,33 @@
+<div id="selectFy">
+	<!-- 高院 -->
+	<div style="float: left;">
+		<span style="float: left;">高&nbsp;&nbsp;&nbsp;&nbsp;院：</span>
+		<div style="float: left;margin-left:5px;">
+		  	<select id="gaoyuan" style="width: 250px;height: 27px;" onchange="selectfy.loadZhongyuan()">
+			   <option value="0">全部</option>
+			</select>
+		</div>
+	</div>
+	<!-- 中院 -->
+	<div style="float: left;">
+		<span style="float: left;">中&nbsp;&nbsp;&nbsp;&nbsp;院：</span>
+		<div style="float: left;margin-left:5px;">
+		  	<select id="zhongyuan" style="width: 250px;height: 27px;" onchange="selectfy.loadJiyuan()">
+			   <option value="0">全部</option>
+			</select>
+		</div>
+	</div>
+	<!-- 基院 -->
+	<div style="float: left;">
+		<span style="float: left;">基层院：</span>
+		<div style="float: left;margin-left:5px;">
+		  	<select style="width: 250px;height: 27px;" id="jicengyuan">
+			   <option value="0">全部</option>
+			</select>
+		</div>
+	</div>
+</div>
+<input type="text" name="" id="bnt_selectfy" hidden="true">
+<script src="../jquery-2.1.1/jquery.min.js"></script>
+<script src="../js/view_js/selectFy.js"></script>
+
